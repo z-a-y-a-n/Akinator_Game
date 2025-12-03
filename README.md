@@ -14,15 +14,16 @@ A Python implementation of the famous Akinator guessing game where the AI tries 
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/z-a-y-a-n/Akinator_Game.git
 cd Akinator-Game
-pip install -r requirements.txt
+uv init
+uv add flask, flask_cors, akinator
 ```
 
 ## Usage
 
 ```bash
-python api/server.py
+python server.py
 ```
 
 Follow the prompts and answer the AI's questions with:
