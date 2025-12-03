@@ -14,8 +14,9 @@ A Python implementation of the famous Akinator guessing game where the AI tries 
 ## Installation
 
 ```bash
-git clone https://github.com/z-a-y-a-n/Akinator_Game.git
+git clone <repository-url>
 cd Akinator-Game
+pip install -r requirements.txt
 ```
 
 ## Usage
